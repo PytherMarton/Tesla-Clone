@@ -205,3 +205,97 @@ footer, footer a{
     position: relative;
     bottom: -50px;
 }
+
+@media only screen and (max-width: 600px) {
+    .navbar a {
+        display: none;
+    }
+    .navbar img {
+        width: 23%;
+        position: relative;
+        top: -10px;
+        left: -170px;
+    }
+ 
+    #modelS a{
+        position: relative;
+        top: -30px;
+    }
+ 
+    #modelS #button1 {
+         position: relative;
+         bottom: -320px;
+    }
+ 
+    #model3 #button1 {
+     position: relative;
+     bottom: -320px;
+    }
+ 
+    #modelX #button1 {
+     position: relative;
+     bottom: -320px;
+    }
+ 
+    #modelY #button1 {
+     position: relative;
+     bottom: -320px;
+    }
+}
+
+@media only screen and (min-width: 538px) {
+    #button1 {
+        position: relative;
+        top: 0px;
+    }
+}
+
+@media only screen and (min-width: 537px) {
+    .navbar a {
+        display: none;
+    }
+    .navbar img {
+        width: 23%;
+        position: relative;
+        top: -10px;
+        left: -170px;
+    }
+}
+
+@media only screen and (min-width: 767px) {
+    .navbar {
+        overflow: hidden;
+        position: fixed;
+        top: 52px;
+        z-index: 1;
+        display: flex;
+        width: 100%;
+        height: 60px;
+        background: transparent;
+        padding-left: 200px;
+        margin-top: 12px;
+    } 
+   
+    .navbar a {
+        text-shadow:black;
+        text-decoration: none;
+        display: block;
+        color: rgb(31, 29, 29);
+        padding: 10px 17px 17px 20px;
+        font-size: 0.91rem;
+    }
+
+   .navbar img {
+    width: 10%;
+    position: relative;
+    top: -10px;
+    left: -120px;
+   }
+}
+
+@media only screen and (max-width: 1240px) {
+    .navbar a{
+        display: none;
+    }
+
+}
