@@ -125,31 +125,31 @@ section p {
 }
 
 section#modelS {
-    background: url(modelS.avif) no-repeat center center/cover;
+    background: url(modelS.jpg) no-repeat center center/cover;
 }
 
 section#model3 {
-    background: url(model3.avif) no-repeat center center/cover;
+    background: url(model3.jpg) no-repeat center center/cover;
 }
 
 section#modelX {
-    background: url(modelX.avif) no-repeat center center/cover;
+    background: url(modelX.jpg) no-repeat center center/cover;
 }
 
 section#modelY {
-    background: url(modelY.avif) no-repeat center center/cover;
+    background: url(modelY.jpg) no-repeat center center/cover;
 }
 
 section#solarRoof {
-    background: url(solarRoof.avif) no-repeat center center/cover;
+    background: url(solarRoof.jpg) no-repeat center center/cover;
 }
 
 section#solarPanels {
-    background: url(solarPanels.avif) no-repeat center center/cover;
+    background: url(solarPanels.jpg) no-repeat center center/cover;
 }
 
 section#accessories {
-    background: url(accessories.webp) no-repeat center center/cover;
+    background: url(accessories.jpg) no-repeat center center/cover;
 }
 
 #button1 {
@@ -297,5 +297,5 @@ footer, footer a{
     .navbar a{
         display: none;
     }
-    
+
 }
